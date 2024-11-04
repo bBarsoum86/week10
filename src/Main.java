@@ -11,25 +11,25 @@ public class Main {
 
         Animal gen = new Animal("garfield", 16);
 
-        String genName = gen.getName();
+        String getName = gen.getName();
         System.out.println("here os the animal name:" + getName);
         gen.Speak();
 
-        Dog dog1 = new Dog("oddie", "23");
+        Dog dog1 = new Dog("oddie", 23);
         String dog1Name = dog1.getName();
         System.out.println("dog's 1 name :" + dog1Name);
         dog1.Speak();
 
 
-        Animal gen = new Animal("backster", 16);
+        Animal cat = new Animal("backster", 16);
 
-        String genName = gen.getName();
+        String catName = gen.getName();
         System.out.println("here os the animal name:" + getName);
-        gen.Speak();
+        cat.Speak();
 
-        Dog dog1 = new Dog("backster", "23");
-        String dog1Name = dog1.getName();
-        System.out.println("dog's 1 name :" + dog1Name);
+        Dog cat1 = new Dog("backster", 23);
+        String cat1Name = dog1.getName();
+        System.out.println("dog's 1 name :" + cat1Name);
         dog1.Speak();
 
 
