@@ -9,20 +9,21 @@ public class Animal {
     private int age;
 
     // constructor
-    public Animal(String animalName, int animalAge{
+    public Animal(String animalName, int animalAge){
         name = animalName;
         age = animalAge;
 
-        public void setnAME(String animalName){
+        public void setName;(String animalName){
             name = animalName;
 
         }
         public String getName(){
             return name;
         }
+
     }
 
-    public void Speak()
+    public void Speak();
 
 
 }

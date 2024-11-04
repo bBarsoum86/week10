@@ -16,8 +16,21 @@ public class Main {
         gen.Speak();
 
         Dog dog1 = new Dog("oddie", "23");
-        String dog1Name = dog1.getName()
+        String dog1Name = dog1.getName();
+        System.out.println("dog's 1 name :" + dog1Name);
+        dog1.Speak();
 
+
+        Animal gen = new Animal("backster", 16);
+
+        String genName = gen.getName();
+        System.out.println("here os the animal name:" + getName);
+        gen.Speak();
+
+        Dog dog1 = new Dog("backster", "23");
+        String dog1Name = dog1.getName();
+        System.out.println("dog's 1 name :" + dog1Name);
+        dog1.Speak();
 
 
 
