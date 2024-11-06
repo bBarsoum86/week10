@@ -7,7 +7,7 @@ public class Cat extends Animal {
     }
 
     public void speak(){
-        System.out.println("meau! meau!");
+        System.out.println("meau! purr!");
     }
 
 }
